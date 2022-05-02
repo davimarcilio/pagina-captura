@@ -11,7 +11,7 @@ body{
     margin: auto;
 }
 header{
-    background-color: #48c5ce;
+    background-color: #14195c;
     text-align: center;
     color: white;
     padding: 10px;
@@ -27,7 +27,7 @@ section{
 }
 .formcontainer{
     max-width: 230px;
-    background-color: #ffffffbb;
+    background-color: rgba(105, 105, 105, 0.9);
     padding: 20px;
     float: right;
 }
@@ -36,6 +36,7 @@ h2{
 }
 .mb{
     margin-bottom: 15px;
+    color: white;
 }
 input, select{
     width: 100%;
@@ -46,9 +47,9 @@ input, select{
 }
 input[type="submit"]{
     color: white;
-    background-color: #48c5ce;
+    background-color: #14195c;
     font-weight: bold;
-    border: 1px solid #48c5ce;
+    border: 1px solid #14195c;
 }
 input[type="submit"]:hover{
     color: white;
@@ -66,12 +67,13 @@ select{
     background-position-y: center;
 }
 footer{
-    background-color: #202121;
+    background-color: #3d3d3d;
     padding: 40px;
     text-align: center;
 }
 .picture{
-    width: 160px;
+    width:280px;
+    margin-bottom: 60px;
 }
 .description{
     text-align: left;
@@ -86,10 +88,17 @@ footer{
 .description h3{
  font-size: 24px;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:635px) {
     .formcontainer{
         max-width: 100%;
-        background-color: #ffffffbb;
+        background-color: rgba(105, 105, 105, 0.9);
         padding: 20px;
+    }
+    .description{
+        text-align: left;
+        color: white;
+        display: inline-block;
+        max-width: 100%;
+        margin-left: 10px;
     }
 }
